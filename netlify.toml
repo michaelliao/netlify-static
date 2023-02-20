@@ -1,0 +1,9 @@
+[build]
+  publish = "public/"
+
+[[redirects]]
+  from = "/fn/hello"
+  to = "/.netlify/functions/hello"
+
+[functions]
+  directory = "functions/"
